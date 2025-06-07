@@ -24,6 +24,12 @@ Include it in your project
         console.log(params);
     });
 
+    router.on('$change', (path) => {
+        console.log(path);
+    });
+
+
+
    ```
 
  
